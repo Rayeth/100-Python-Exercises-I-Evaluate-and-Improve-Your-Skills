@@ -1,0 +1,9 @@
+# Question: Let's start with easy things first. What will the following code produce?
+
+a = 2
+a = 4
+a = 6
+print(a + a + a)
+
+# my answer: 18
+# output: 18

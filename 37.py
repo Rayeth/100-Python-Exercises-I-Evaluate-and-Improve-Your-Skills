@@ -4,16 +4,8 @@ def count_words(filepath):
     with open(filepath, 'r') as file:
         strng = file.read()
         x = strng.replace(',', ' ')
-        print(x)
         strng_list = x.split()
         return len(strng_list)
 
-
-
-def print_file(filepath):
-    with open(filepath) as file:
-        strng = file.read()
-        strng.replace(',', ' ')
-        print(strng)
 
 print(count_words('words2.txt'))

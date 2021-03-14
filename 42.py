@@ -9,3 +9,6 @@ sum = [x + y for (x, y) in zipped_lists]
 
 for  item in sum:
     print(item)
+
+# for i, j in zip(a, b):
+#     print(i + j)

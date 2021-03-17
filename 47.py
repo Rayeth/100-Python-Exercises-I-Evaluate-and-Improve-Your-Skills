@@ -13,3 +13,4 @@ for filename in file_list:
             letters.append(x)
 
 print(letters)
+print(file_list)
